@@ -1,0 +1,130 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Good morning!"
+      ],
+      "responses": [
+        "Hello. How can I help you?",
+        "Good to see you again!",
+        "Hi there, how can I help?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "TTYL",
+        "See ya!"
+      ],
+      "responses": [
+        "See you later, thanks for visiting!",
+        "Have a nice day!",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thx!"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure",
+        "You're welcome!"
+      ]
+    },
+    {
+      "tag": "hours",
+      "patterns": [
+        "What hours are you open?",
+        "What are your hours?",
+        "When are you open?",
+        "Your work time"
+      ],
+      "responses": [
+        "We're open every day 9am-9pm",
+        "Our hours are 9am-9pm every day"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Are you cash only?",
+        "Do you take VISA?",
+        "Can I pay via Maestro?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and AMEX",
+        "We accept most major credit cards"
+      ]
+    },
+    {
+      "tag": "opentoday",
+      "patterns": [
+        "Are you open today?",
+        "When do you open today?",
+        "What are your hours today?",
+        "Do you work?"
+      ],
+      "responses": [
+        "We're open every day from 9am-9pm",
+        "Our hours are 9am-9pm every day"
+      ]
+    },
+    {
+      "tag": "botname",
+      "patterns": [
+        "What's your name?",
+        "What is your name?",
+        "Do you have a name?",
+        "Your name and surname!",
+        "Who are you?",
+        "Do you have surname or name?"
+      ],
+      "responses": [
+        "My name is Frank!"
+      ]
+    },
+    {
+      "tag": "creator",
+      "patterns": [
+        "Who created you?",
+        "What is your father name?",
+        "Do you have a creator?",
+        "Who was your creator?"
+      ],
+      "responses": [
+        "My creator is Artem Meller!"
+      ]
+    },
+    {
+      "tag": "callbank",
+      "patterns": [
+        "Call the operator!",
+        "Frank, please, call the bank manager!",
+        "Call to bank!",
+        "Connect me to the bank!",
+        "Please, make a connection to the bank office!"
+      ],
+      "responses": [
+        "Okay! Connecting to the bank!"
+      ]
+    }
+  ]
+}
